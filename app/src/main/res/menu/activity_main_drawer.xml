@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Opções">
+
+        <!-- ALL ICONS USAGE IN THIS MENU, WAS MADE BY:
+            freepik
+            http://www.flaticon.com/authors/freepik
+
+            POTATO ICON by:  Madebyoliver
+            http://www.flaticon.com/authors/madebyoliver
+
+            EXIT ICON by:  Dave Gandy
+            http://www.flaticon.com/authors/dave-gandy
+        -->
+        <item
+            android:id="@+id/nav_saladas"
+            android:icon="@drawable/saladas"
+            android:title="@string/salada" />
+        <item
+            android:icon="@drawable/bebidas"
+            android:id="@+id/nav_bebidas"
+            android:title="@string/bebida" />
+        <item
+            android:icon="@drawable/zero"
+            android:id="@+id/nav_zero"
+            android:title="@string/zero" />
+        <item
+            android:icon="@drawable/zero_glutem"
+            android:id="@+id/nav_zeroglutem"
+            android:title="@string/zero_glutem"
+            />
+        <item
+            android:icon="@drawable/low_carb"
+            android:id="@+id/nav_low_carb"
+            android:title="@string/low_carb" />
+        <item
+            android:icon="@drawable/congelados"
+            android:id="@+id/nav_congelados"
+            android:title="@string/congelados" />
+        <item
+            android:icon="@drawable/finalizar"
+            android:id="@+id/nav_finalizar_pedido"
+            android:title="@string/finalizar_pedido"/>
+        <item
+            android:icon="@drawable/sair"
+            android:id="@+id/nav_sair"
+            android:title="@string/sair" >
+        </item>
+    </item>
+
+    <item android:title="Comunicaçao">
+        <menu>
+            <item
+                android:id="@+id/nav_compartilhar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartilhe o app!" />
+            <item
+                android:icon="@drawable/fb_logo"
+                android:id="@+id/nav_fb"
+                android:title="Curta no Facebook!" />
+        </menu>
+    </item>
+    -->
+</menu>

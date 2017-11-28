@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_saladas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+    <!-- tools:context="ponciano.romulo.natufit.Saladas" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textColor="@color/cor_fonte"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btn_salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/confirmar_pedido" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:id="@+id/sv"
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:scrollbars="horizontal"
+                    android:layout_marginLeft="@dimen/revisar_espacamento_esquerda"
+                    android:textSize="@dimen/tam_fonte_pedido"
+                    android:id="@+id/txt_pedido"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_above="@id/btn_salvar"
+                    android:layout_alignParentTop="true" />
+            </ScrollView>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</FrameLayout>
+

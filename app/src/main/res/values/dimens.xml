@@ -1,0 +1,39 @@
+<resources>
+    <!-- GLOBAL -->
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="nav_header_vertical_spacing">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="espacamento_inicial">50dp</dimen>
+    <dimen name="espacamento_entre_btn">20dp</dimen>
+    <dimen name="espacamento_entre_widget">10dp</dimen>
+    <dimen name="tam_fonte_padrao">35dp</dimen>
+    <dimen name="tam_fonte_btn">15dp</dimen>
+
+    <!-- NAV DRAWER -->
+    <dimen name="logo_nav_largura">80dp</dimen>
+    <dimen name="logo_nav_altura">80dp</dimen>
+    <dimen name="tam_icons">24dp</dimen>
+    <dimen name="tam_fonte_nav">20dp</dimen>
+
+    <!-- SALADAS -->
+    <dimen name="margem_spin">35dp</dimen>
+
+    <!-- MAIN -->
+    <dimen name="main_altura_logo">250dp</dimen>
+    <dimen name="main_largura_botao">250dp</dimen>
+    <dimen name="main_altura_botao">60dp</dimen>
+
+    <!-- REVISAR PEDIDO -->
+    <dimen name="tam_fonte_pedido">20dp</dimen>
+    <dimen name="revisar_espacamento_esquerda">5dp</dimen>
+
+    <!-- INFOS ENTREGAS -->
+    <dimen name="infos_largura_txt">100dp</dimen>
+    <dimen name="infos_altura_linha">40dp</dimen>
+    <dimen name="infos_tam_fonte">20dp</dimen>
+    <dimen name="infos_largura_troco">100dp</dimen>
+    <dimen name="infos_tam_endereco">30dp</dimen>
+    <dimen name="infos_largura_entrega">60dp</dimen>
+    <dimen name="infos_espacamento_final">5dp</dimen>
+</resources>

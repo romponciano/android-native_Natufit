@@ -1,0 +1,214 @@
+<resources>
+    <!-- NAVIGATION -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">Natufit</string>
+    <string name="telefone">(24) 99971-7179</string>
+    <string name="revisar_pedido">Revisar pedido</string>
+    <string name="proximo">Salvar</string>
+    <string name="confirmar_pedido">Confirmar Pedido</string>
+    <string name="confirma_pedido_final">Gerar Pedido</string>
+    <string name="finalizar_pedido">Finalizar Pedido</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- MAIN -->
+    <string name="btn_iniciar_pedido">INICIAR PEDIDO</string>
+
+    <!-- MENU DE ESCOLHAS -->
+    <string name="salada">Salada no Pote</string>
+    <string name="bebida">Bebidas</string>
+    <string name="zero_glutem">Zero Glúten</string>
+    <string name="low_carb">Low Carb</string>
+    <string name="congelados">Congelados</string>
+    <string name="zero">Zero Açucar</string>
+    <string name="sair">Sair</string>
+
+    <!-- INFOS ENTREGA -->
+    <string name="infoentrega">Informações para entrega</string>
+    <string name="nome">Nome:</string>
+    <string name="tel">Telefone:</string>
+    <string name="endereco">Endereço</string>
+    <string name="cep">CEP:</string>
+    <string name="cidade">Cidade:</string>
+    <string name="bairro">Bairro:</string>
+    <string name="rua">Rua:</string>
+    <string name="numero">Nº:</string>
+    <string name="troco">Troco p/:</string>
+    <string name="agendar">Entregar:</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="referencia">Referência:</string>
+
+
+    <!-- ALIMENTOS A VENDA ________________________________________________________________ -->
+    <!-- SALADAS -->
+    <!-- CATEGORIAS DE SALADAS -->
+    <string-array name="array_opcoes">
+        <item>Proteínas</item>
+        <item>Carboidratos</item>
+        <item>Leguminosas</item>
+        <item>Verduras</item>
+        <item>Legumes</item>
+        <item>Frutas</item>
+        <item>Oleaginosas</item>
+    </string-array>
+    <!-- PROTEINAS -->
+    <string-array name="array_proteinas">
+        <item>Frango grelhado</item>
+        <item>Frango desfiado</item>
+        <item>Ovo cozido</item>
+        <item>Carne moida</item>
+        <item>Bife</item>
+        <item>Carne seca</item>
+        <item>Queijo em cubos</item>
+        <item>Presunto em cubos</item>
+        <item>Kani</item>
+    </string-array>
+    <!-- CARBOIDRATOS -->
+    <string-array name="array_carboidratos">
+        <item>Croutons</item>
+        <item>Macarrão integral</item>
+        <item>Arroz integral</item>
+        <item>Batata doce</item>
+        <item>Batata baroa</item>
+        <item>Mandioca</item>
+        <item>Linhaça</item>
+    </string-array>
+    <!-- LEGUMINOSAS -->
+    <string-array name="array_leguminosas">
+        <item>Feijão fradinho</item>
+        <item>Grão de bico</item>
+        <item>Soja</item>
+        <item>Lentilha</item>
+        <item>Amendoim</item>
+    </string-array>
+    <!-- VERDURAS -->
+    <string-array name="array_verduras">
+        <item>Agrião</item>
+        <item>Alface</item>
+        <item>Brócolis</item>
+        <item>Chicória</item>
+        <item>Couve</item>
+        <item>Espinafre</item>
+        <item>Mostarde</item>
+        <item>Rúcula</item>
+    </string-array>
+    <!-- LEGUMES -->
+    <string-array name="array_legumes">
+        <item>Moranga</item>
+        <item>Abobrinha</item>
+        <item>Beringela</item>
+        <item>Beterraba</item>
+        <item>Cenoura</item>
+        <item>Chuchu</item>
+        <item>Couve flor</item>
+        <item>Ervilha</item>
+        <item>Milho</item>
+        <item>Pepino</item>
+        <item>Pimentão</item>
+        <item>Rabanete</item>
+        <item>Vagem</item>
+    </string-array>
+    <!-- FRUTAS -->
+    <string-array name="array_frutas">
+        <item>Tomate</item>
+        <item>Abacate</item>
+        <item>Abacaxi</item>
+        <item>Banana</item>
+        <item>Passas</item>
+    </string-array>
+    <!-- OLEAGINOSAS -->
+    <string-array name="array_oleaginosas">
+        <item>Nozes</item>
+        <item>Castanha</item>
+        <item>Castanha do Pará</item>
+        <item>Castanha de Caju</item>
+    </string-array>
+
+    <!-- BEBIDAS -->
+    <string-array name="array_bebidas">
+        <item>Laranja</item>
+        <item>Abacaxi</item>
+        <item>Melão</item>
+        <item>Melancia</item>
+        <item>Goiaba</item>
+        <item>Morango</item>
+        <item>Limonada</item>
+        <item>Água de coco</item>
+        <item>Abacaxi c/ maçã</item>
+        <item>Laranja c/ maçã</item>
+        <item>Laranja c/ acerola</item>
+        <item>Melancia c/ morango</item>
+        <item>Melão c/ abacaxi</item>
+        <item>Suco verde</item>
+        <item>Smothie morango</item>
+        <item>Smothie abacate</item>
+        <item>Smothie manga</item>
+        <item>Smothie abacaxi</item>
+        <item>Smothie banana</item>
+        <item>Smothie pêssego</item>
+        <item>Smothie coco"</item>
+    </string-array>
+
+    <!-- LOW CARB -->
+    <string-array name="array_low_carb">
+        <item>Bolinhos proteicos</item>
+        <item>Barrinha de proteína</item>
+        <item>Bolo</item>
+        <item>Almôndegas</item>
+        <item>Estrogonofe</item>
+        <item>Purê de batata doce</item>
+        <item>Arroz de couve-flor</item>
+        <item>Macarrão de abobrinha</item>
+    </string-array>
+
+    <!-- CONGELADOS -->
+    <string-array name="array_congelados">
+        <item>Panqueca de frango c/ ricota</item>
+        <item>Lasanha bolonhesa</item>
+        <item>Escondidinho de batata doce</item>
+        <item>Abobrinha recheada</item>
+        <item>Almondegas</item>
+        <item>Estrogonofe</item>
+        <item>Purê de batata doce</item>
+        <item>Arroz de couve-flor</item>
+        <item>Salpicão</item>
+        <item>Hamburguer</item>
+        <item>Nhoque</item>
+        <item>Macarrão de abobrinha</item>
+    </string-array>
+
+    <!-- ZERO AÇUCAR -->
+    <string-array name="array_zeroacucar">
+        <item>Bolo de chocolate</item>
+        <item>Bolo de cenoura</item>
+        <item>Bolo de coco</item>
+        <item>Mousse de maracujá</item>
+        <item>Brigadeiro</item>
+        <item>Geleia de morango</item>
+        <item>Palha italiana vegana</item>
+        <item>Geladinho</item>
+        <item>Pote de sorvete</item>
+        <item>Iogurte</item>
+        <item>Bombom</item>
+        <item>Bolo de banana</item>
+    </string-array>
+
+    <string-array name="array_zeroglutem">
+        <item>Pizza</item>
+        <item>Panqueca</item>
+        <item>Coxinha de frango</item>
+        <item>Brownie</item>
+        <item>Pão francês</item>
+        <item>Macarrão integral</item>
+        <item>Pão de queijo</item>
+        <item>Cookie</item>
+        <item>Chocotone</item>
+        <item>Tapioca</item>
+        <item>Lasanha</item>
+        <item>Escondidinho de carne</item>
+        <item>Snack</item>
+        <item>Pão de forma</item>
+    </string-array>
+
+</resources>

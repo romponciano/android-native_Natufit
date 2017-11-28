@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_saladas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+    <!-- tools:context="ponciano.romulo.natufit.Saladas" -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textColor="@color/cor_fonte"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btn_finalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/finalizar_pedido" />
+
+        <ScrollView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/btn_finalizar"
+            android:layout_alignParentTop="true">
+            <LinearLayout
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- NOME -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/nome"/>
+                    <EditText
+                        android:id="@+id/edt_nome"
+                        android:inputType="textCapWords"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- TELEFONE -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/tel"/>
+                    <EditText
+                        android:id="@+id/edt_telefone"
+                        android:inputType="phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- CIDADE -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/cidade"/>
+                    <EditText
+                        android:id="@+id/edt_cidade"
+                        android:inputType="textCapWords"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- BAIRRO -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/bairro"/>
+                    <EditText
+                        android:id="@+id/edt_bairro"
+                        android:inputType="textCapWords"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- RUA -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/rua"/>
+                    <EditText
+                        android:id="@+id/edt_rua"
+                        android:inputType="textCapWords"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- NÚMERO -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/numero"/>
+                    <EditText
+                        android:id="@+id/edt_numero"
+                        android:textAlignment="center"
+                        android:inputType="number"
+                        android:layout_width="@dimen/infos_largura_troco"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- REFERENCIA -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/referencia"/>
+                    <EditText
+                        android:id="@+id/edt_referencia"
+                        android:inputType="textCapWords"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/infos_altura_linha"  />
+                </LinearLayout>
+                <!-- TROCO -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/troco"/>
+                    <EditText
+                        android:id="@+id/edt_troco"
+                        android:textAlignment="center"
+                        android:inputType="numberDecimal"
+                        android:layout_width="@dimen/infos_largura_troco"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+                <!-- AGENDAR HORA -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_altura_linha"
+                        android:text="@string/agendar"/>
+                    <EditText
+                        android:maxLength="2"
+                        android:id="@+id/edt_hora"
+                        android:textAlignment="center"
+                        android:inputType="number"
+                        android:layout_width="@dimen/infos_largura_entrega"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                    <TextView
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=":"/>
+                    <EditText
+                        android:maxLength="2"
+                        android:id="@+id/edt_minuto"
+                        android:textAlignment="center"
+                        android:inputType="number"
+                        android:layout_width="@dimen/infos_largura_entrega"
+                        android:layout_height="@dimen/infos_altura_linha" />
+                </LinearLayout>
+
+                <!-- ESPAÇO -->
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/espacamento_entre_widget"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginBottom="@dimen/activity_vertical_margin"
+                        android:textSize="@dimen/infos_tam_fonte"
+                        android:layout_width="@dimen/infos_largura_txt"
+                        android:layout_height="@dimen/infos_espacamento_final"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</FrameLayout>
+
